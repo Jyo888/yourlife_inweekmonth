@@ -16,6 +16,6 @@ pass_yr_day = int(yr_old) * 365
 left_wk = yr_life_wk - pass_yr_wk
 left_month = yr_life_month - pass_yr_month
 left_day = (90 * 365) - pass_yr_day
-print(f"Your life in days is {left_day}\n Your life in Week is {left_wk}\n Your life in Months is {left_month}\n")
+print(f"Your life in days is {left_day}\n Your life in Weeks is {left_wk}\n Your life in Months is {left_month}\n")
 
 quit()
