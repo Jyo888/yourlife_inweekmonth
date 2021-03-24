@@ -7,9 +7,12 @@ yr_life_month = 12*90
 
 pass_yr_wk = int(yr_old) * 52
 pass_yr_month = int(yr_old) * 12
+pass_yr_day = int(yr_old) * 365
+
 
 left_wk = yr_life_wk - pass_yr_wk
 left_month = yr_life_month - pass_yr_month
-print(f"Your life in Week is {left_wk}\n Your life in Months is {left_month}")
+left_day = (90 * 365) - pass_yr_day
+print(f"Your life in Week is {left_wk}\n Your life in Months is {left_month}\n Your life in days is {left_day}")
 
 quit()
